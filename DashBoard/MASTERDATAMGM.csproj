@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ApplicationIcon>VTI-LOGO.ico</ApplicationIcon>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C3DF5808-C25B-4FC0-A369-8A65A84DD13F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DashBoard</RootNamespace>
+    <AssemblyName>DashBoard</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="EPPlus">
+      <HintPath>..\..\..\lib\EPPlus_3.1.3\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cryCNXX-0ld.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cryCNXX-0ld.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frUserMenuPermission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frUserMenuPermission.Designer.cs">
+      <DependentUpon>frUserMenuPermission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frInventory.Designer.cs">
+      <DependentUpon>frInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frNXTDimensionAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frNXTDimensionAll.Designer.cs">
+      <DependentUpon>frNXTDimensionAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frNXTDimension.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frNXTDimension.Designer.cs">
+      <DependentUpon>frNXTDimension.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frStockCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frStockCard.Designer.cs">
+      <DependentUpon>frStockCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frCNXXHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frCNXXHistory.Designer.cs">
+      <DependentUpon>frCNXXHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryClass\DataProvider.cs" />
+    <Compile Include="LibraryClass\Connect.cs" />
+    <Compile Include="cryCNXX.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cryCNXX.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\frAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frAbout.Designer.cs">
+      <DependentUpon>frAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\DashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DashBoard.Designer.cs">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frCNXXView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frCNXXView.Designer.cs">
+      <DependentUpon>frCNXXView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frCNXX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frCNXX.Designer.cs">
+      <DependentUpon>frCNXX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frNXT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frNXT.Designer.cs">
+      <DependentUpon>frNXT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryClass\Process.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\frServerConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frServerConfig.Designer.cs">
+      <DependentUpon>frServerConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frRequest.Designer.cs">
+      <DependentUpon>frRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserWHSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\UserWHSetup.Designer.cs">
+      <DependentUpon>UserWHSetup.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="cryCNXX-0ld.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cryCNXX-0ld.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frUserMenuPermission.resx">
+      <DependentUpon>frUserMenuPermission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frInventory.resx">
+      <DependentUpon>frInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frNXTDimensionAll.resx">
+      <DependentUpon>frNXTDimensionAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frNXTDimension.resx">
+      <DependentUpon>frNXTDimension.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frStockCard.resx">
+      <DependentUpon>frStockCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frCNXXHistory.resx">
+      <DependentUpon>frCNXXHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cryCNXX.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cryCNXX.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frAbout.resx">
+      <DependentUpon>frAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DashBoard.resx">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frCNXXView.resx">
+      <DependentUpon>frCNXXView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frCNXX.resx">
+      <DependentUpon>frCNXX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frNXT.resx">
+      <DependentUpon>frNXT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\frServerConfig.resx">
+      <DependentUpon>frServerConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frRequest.resx">
+      <DependentUpon>frRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UserWHSetup.resx">
+      <DependentUpon>UserWHSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\document_print.ico" />
+    <Content Include="VTI-LOGO.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

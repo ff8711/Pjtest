@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 10.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="10.0">
+ <Targets>
+  <Target Name="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\bin\Debug\DashBoard.exe">
+   <Modules>
+    <Module Name="dashboard.exe">
+     <Namespaces>
+      <Namespace Name="DashBoard">
+       <Types>
+        <Type Name="CachedcryCNXX" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CreateReport()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard" File="cryCNXX.cs" Line="220">In method 'CachedcryCNXX.CreateReport()', object 'rpt' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'rpt' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CachedcryCNXX_0ld" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CreateReport()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard" File="cryCNXX-0ld.cs" Line="220">In method 'CachedcryCNXX_0ld.CreateReport()', object 'rpt' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'rpt' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CNXXHistory" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btnRePrint_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frCNXXHistory.cs" Line="92">In method 'CNXXHistory.btnRePrint_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'cnxx' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Connect" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Decrypt(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="Connect.cs" Line="106">In method 'Connect.Decrypt(string)', call System.IDisposable.Dispose on object 'hashmd5' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="Connect.cs" Line="110">In method 'Connect.Decrypt(string)', call System.IDisposable.Dispose on object 'tdes' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Encript(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="Connect.cs" Line="87">In method 'Connect.Encript(string)', call System.IDisposable.Dispose on object 'hashmd5' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="Connect.cs" Line="91">In method 'Connect.Encript(string)', call System.IDisposable.Dispose on object 'tdes' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DashBoard" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#mnAbout_Click_1(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="DashBoard.cs" Line="141">In method 'DashBoard.mnAbout_Click_1(object, EventArgs)', call System.IDisposable.Dispose on object 'about' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#mnCNXX_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="DashBoard.cs" Line="40">In method 'DashBoard.mnCNXX_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'cnxx' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#mnCNXXHistory_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="DashBoard.cs" Line="133">In method 'DashBoard.mnCNXXHistory_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'his' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#mnInvAllItem_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="DashBoard.cs" Line="175">In method 'DashBoard.mnInvAllItem_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'inv' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#mnPlanReq_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="DashBoard.cs" Line="163">In method 'DashBoard.mnPlanReq_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'rq' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#mnStCard_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="DashBoard.cs" Line="152">In method 'DashBoard.mnStCard_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'sc' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#mnUserSetup_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="DashBoard.cs" Line="86">In method 'DashBoard.mnUserSetup_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'us' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#mnXNTDimension_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="DashBoard.cs" Line="32">In method 'DashBoard.mnXNTDimension_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'nxt' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#mnXNTDimension_Click_1(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="DashBoard.cs" Line="169">In method 'DashBoard.mnXNTDimension_Click_1(object, EventArgs)', call System.IDisposable.Dispose on object 'xnt' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#serverConfigToolStripMenuItem_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="DashBoard.cs" Line="97">In method 'DashBoard.serverConfigToolStripMenuItem_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'sc' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DataProvider" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#ExecuteByCmdtxt(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="311">In method 'DataProvider.ExecuteByCmdtxt(string, string)', object 'cnn' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="312">In method 'DataProvider.ExecuteByCmdtxt(string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="312">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.ExecuteByCmdtxt(string, string)' could contain the following variables 'cmdtxt'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getBeginQty(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="525">In method 'DataProvider.getBeginQty(string, string, string, string, string, string, string, string, string, string)', object 'tb' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'tb' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="545">In method 'DataProvider.getBeginQty(string, string, string, string, string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'adap' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="523">In method 'DataProvider.getBeginQty(string, string, string, string, string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="522">In method 'DataProvider.getBeginQty(string, string, string, string, string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="523">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.getBeginQty(string, string, string, string, string, string, string, string, string, string)' could contain the following variables 'SP'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getCNXXHistory(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="392">In method 'DataProvider.getCNXXHistory(string, string, string, string, string, string, string, string)', object 'tb' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'tb' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="410">In method 'DataProvider.getCNXXHistory(string, string, string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'adap' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="391">In method 'DataProvider.getCNXXHistory(string, string, string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="390">In method 'DataProvider.getCNXXHistory(string, string, string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="391">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.getCNXXHistory(string, string, string, string, string, string, string, string)' could contain the following variables 'SP'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getCNXXHistoryByWareHouse(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="426">In method 'DataProvider.getCNXXHistoryByWareHouse(string, string, string, string, string, string, string, string, string)', object 'tb' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'tb' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="445">In method 'DataProvider.getCNXXHistoryByWareHouse(string, string, string, string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'adap' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="425">In method 'DataProvider.getCNXXHistoryByWareHouse(string, string, string, string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="424">In method 'DataProvider.getCNXXHistoryByWareHouse(string, string, string, string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="425">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.getCNXXHistoryByWareHouse(string, string, string, string, string, string, string, string, string)' could contain the following variables 'SP'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetDataByCommandTextAndConnectString(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="82">In method 'DataProvider.GetDataByCommandTextAndConnectString(string, string)', object 'tb' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'tb' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="89">In method 'DataProvider.GetDataByCommandTextAndConnectString(string, string)', call System.IDisposable.Dispose on object 'adap' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="84">In method 'DataProvider.GetDataByCommandTextAndConnectString(string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="83">In method 'DataProvider.GetDataByCommandTextAndConnectString(string, string)', call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="84">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.GetDataByCommandTextAndConnectString(string, string)' could contain the following variables 'cmdText'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetDataBySPAndConnectString(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="61">In method 'DataProvider.GetDataBySPAndConnectString(string, string)', object 'tb' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'tb' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="68">In method 'DataProvider.GetDataBySPAndConnectString(string, string)', call System.IDisposable.Dispose on object 'adap' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="63">In method 'DataProvider.GetDataBySPAndConnectString(string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="62">In method 'DataProvider.GetDataBySPAndConnectString(string, string)', call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="63">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.GetDataBySPAndConnectString(string, string)' could contain the following variables 'StProcedure'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getInventory(System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="580">In method 'DataProvider.getInventory(string, string, string, string)', object 'tb' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'tb' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="589">In method 'DataProvider.getInventory(string, string, string, string)', call System.IDisposable.Dispose on object 'adap' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="578">In method 'DataProvider.getInventory(string, string, string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="577">In method 'DataProvider.getInventory(string, string, string, string)', call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="578">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.getInventory(string, string, string, string)' could contain the following variables 'SP'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getNhapXuatTonDimension(System.String,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="558">In method 'DataProvider.getNhapXuatTonDimension(string, string, string, string, string, string)', object 'tb' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'tb' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="568">In method 'DataProvider.getNhapXuatTonDimension(string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'adap' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="556">In method 'DataProvider.getNhapXuatTonDimension(string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="555">In method 'DataProvider.getNhapXuatTonDimension(string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="556">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.getNhapXuatTonDimension(string, string, string, string, string, string)' could contain the following variables 'SP'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getNumber(System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="212">In method 'DataProvider.getNumber(string, string, string)', call System.IDisposable.Dispose on object 'adap' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="205">In method 'DataProvider.getNumber(string, string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="203">In method 'DataProvider.getNumber(string, string, string)', call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="204">In method 'DataProvider.getNumber(string, string, string)', call System.IDisposable.Dispose on object 'tb' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="205">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.getNumber(string, string, string)' could contain the following variables 'StProcedure'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getPackByPackID(System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="106">In method 'DataProvider.getPackByPackID(string, string, string, string)', object 'tb' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'tb' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="114">In method 'DataProvider.getPackByPackID(string, string, string, string)', call System.IDisposable.Dispose on object 'adap' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="105">In method 'DataProvider.getPackByPackID(string, string, string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="104">In method 'DataProvider.getPackByPackID(string, string, string, string)', call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="105">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.getPackByPackID(string, string, string, string)' could contain the following variables 'StProcedure'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getPackByPackIdANDSO(System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="178">In method 'DataProvider.getPackByPackIdANDSO(string, string, string, string, string)', object 'tb' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'tb' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="187">In method 'DataProvider.getPackByPackIdANDSO(string, string, string, string, string)', call System.IDisposable.Dispose on object 'adap' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="177">In method 'DataProvider.getPackByPackIdANDSO(string, string, string, string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="176">In method 'DataProvider.getPackByPackIdANDSO(string, string, string, string, string)', call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="177">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.getPackByPackIdANDSO(string, string, string, string, string)' could contain the following variables 'StProcedure'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getPackBySalesId(System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="154">In method 'DataProvider.getPackBySalesId(string, string, string, string)', object 'tb' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'tb' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="162">In method 'DataProvider.getPackBySalesId(string, string, string, string)', call System.IDisposable.Dispose on object 'adap' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="153">In method 'DataProvider.getPackBySalesId(string, string, string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="152">In method 'DataProvider.getPackBySalesId(string, string, string, string)', call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="153">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.getPackBySalesId(string, string, string, string)' could contain the following variables 'StProcedure'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getPackBySO(System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="130">In method 'DataProvider.getPackBySO(string, string, string, string)', object 'tb' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'tb' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="138">In method 'DataProvider.getPackBySO(string, string, string, string)', call System.IDisposable.Dispose on object 'adap' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="129">In method 'DataProvider.getPackBySO(string, string, string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="128">In method 'DataProvider.getPackBySO(string, string, string, string)', call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="129">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.getPackBySO(string, string, string, string)' could contain the following variables 'StProcedure'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getStockCard(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="493">In method 'DataProvider.getStockCard(string, string, string, string, string, string, string, string, string, string)', object 'tb' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'tb' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="513">In method 'DataProvider.getStockCard(string, string, string, string, string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'adap' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="491">In method 'DataProvider.getStockCard(string, string, string, string, string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="490">In method 'DataProvider.getStockCard(string, string, string, string, string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="491">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.getStockCard(string, string, string, string, string, string, string, string, string, string)' could contain the following variables 'SP'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InsertByCmdTextAndConnecString(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="46">In method 'DataProvider.InsertByCmdTextAndConnecString(string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="45">In method 'DataProvider.InsertByCmdTextAndConnecString(string, string)', call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="46">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.InsertByCmdTextAndConnecString(string, string)' could contain the following variables 'commandText'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InsertNumberByStore(System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="236">In method 'DataProvider.InsertNumberByStore(string, int, string, string, string, string, string, string, string, string, string)', object 'cnn' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="237">In method 'DataProvider.InsertNumberByStore(string, int, string, string, string, string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="237">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.InsertNumberByStore(string, int, string, string, string, string, string, string, string, string, string)' could contain the following variables 'SP'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InsertNumberByTxt(System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="228">In method 'DataProvider.InsertNumberByTxt(string, string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="227">In method 'DataProvider.InsertNumberByTxt(string, string, string)', call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="228">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.InsertNumberByTxt(string, string, string)' could contain the following variables 'cmdTxt'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InsertNumberLinesByStore(System.String,System.Int32,System.String,System.String,System.String,System.String,System.Double,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="262">In method 'DataProvider.InsertNumberLinesByStore(string, int, string, string, string, string, double, string, string, string)', object 'cnn' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="263">In method 'DataProvider.InsertNumberLinesByStore(string, int, string, string, string, string, double, string, string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="263">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.InsertNumberLinesByStore(string, int, string, string, string, string, double, string, string, string)' could contain the following variables 'SP'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InsertNumberLinesByStore(System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.Double,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="283">In method 'DataProvider.InsertNumberLinesByStore(string, string, int, string, string, string, string, string, string, double, string, string, string, string, string, string, string)', object 'cnn' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'cnn' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="284">In method 'DataProvider.InsertNumberLinesByStore(string, string, int, string, string, string, string, string, string, double, string, string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\LibraryClass" File="DataProvider.cs" Line="284">The query string passed to 'SqlCommand.SqlCommand(string, SqlConnection)' in 'DataProvider.InsertNumberLinesByStore(string, string, int, string, string, string, string, string, string, double, string, string, string, string, string, string, string)' could contain the following variables 'SP'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frCNXX" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btnHis_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frCNXX.cs" Line="234">In method 'frCNXX.btnHis_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'his' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btnPrint_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frCNXX.cs" Line="101">In method 'frCNXX.btnPrint_Click(object, EventArgs)', object 'tb' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'tb' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frCNXX.cs" Line="156">In method 'frCNXX.btnPrint_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'cnxx' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frCNXX.cs" Line="159">In method 'frCNXX.btnPrint_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'crys' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frCNXX.cs" Line="100">In method 'frCNXX.btnPrint_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'ds' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frCNXX.cs" Line="177">In method 'frCNXX.btnPrint_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'view' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FrInventoryOnHand" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ExportToExcel(System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frNXTDimensionAll.cs" Line="70">'FrInventoryOnHand.ExportToExcel(string, string, string, string, string)' calls into 'Process.Start(ProcessStartInfo)' which has a LinkDemand. By making this call, 'Process.Start(ProcessStartInfo)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'FrInventoryOnHand.ExportToExcel(string, string, string, string, string)'&#xD;&#xA;   -&gt;'FrInventoryOnHand.ExportToExcel(string, string, string, string, string)'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frNXT" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btnExport_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frNXT.cs" Line="75">In method 'frNXT.btnExport_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'adap' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frNXT.cs" Line="65">In method 'frNXT.btnExport_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frNXT.cs" Line="76">In method 'frNXT.btnExport_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'tb' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#load(System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frNXT.cs" Line="40">In method 'frNXT.load(string, string)', call System.IDisposable.Dispose on object 'adap' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frNXT.cs" Line="34">In method 'frNXT.load(string, string)', call System.IDisposable.Dispose on object 'cmd' before all references to it are out of scope.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frNXT.cs" Line="41">In method 'frNXT.load(string, string)', call System.IDisposable.Dispose on object 'tb' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frNXTDimension" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ExportToExcel(System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frNXTDimension.cs" Line="66">'frNXTDimension.ExportToExcel(string, string, string, string, string)' calls into 'Process.Start(ProcessStartInfo)' which has a LinkDemand. By making this call, 'Process.Start(ProcessStartInfo)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'frNXTDimension.ExportToExcel(string, string, string, string, string)'&#xD;&#xA;   -&gt;'frNXTDimension.ExportToExcel(string, string, string, string, string)'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frStockCard" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ExportToExcel(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frStockCard.cs" Line="88">In method 'frStockCard.ExportToExcel(string, string, string, string, string, string, string, string, string, string)', call System.IDisposable.Dispose on object 'package' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frStockCard.cs" Line="77">'frStockCard.ExportToExcel(string, string, string, string, string, string, string, string, string, string)' calls into 'Process.Start(ProcessStartInfo)' which has a LinkDemand. By making this call, 'Process.Start(ProcessStartInfo)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'frStockCard.ExportToExcel(string, string, string, string, string, string, string, string, string, string)'&#xD;&#xA;   -&gt;'frStockCard.ExportToExcel(string, string, string, string, string, string, string, string, string, string)'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="DashBoard.View">
+       <Types>
+        <Type Name="frInventory" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ExportToExcel(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2016-11-16 09:04:01Z" FixCategory="NonBreaking">
+             <Issue Certainty="33" Level="CriticalError" Path="C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\MASTERDATAMGM\DashBoard\View" File="frInventory.cs" Line="74">'frInventory.ExportToExcel(string, string)' calls into 'Process.Start(ProcessStartInfo)' which has a LinkDemand. By making this call, 'Process.Start(ProcessStartInfo)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'frInventory.ExportToExcel(string, string)'&#xD;&#xA;   -&gt;'frInventory.ExportToExcel(string, string)'</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>Dispose objects before losing scope</Name>
+   <Description>If a disposable object is not explicitly disposed before all references to it are out of scope, the object will be disposed at some indeterminate time when the garbage collector runs the finalizer of the object. Because an exceptional event might occur that will prevent the finalizer of the object from running, the object should be explicitly disposed instead.</Description>
+   <Resolution Name="ExceptionEdge">In method {0}, object {1} is not disposed along all exception paths. Call System.IDisposable.Dispose on object {1} before all references to it are out of scope.</Resolution>
+   <Resolution Name="NonExceptionEdge">In method {0}, call System.IDisposable.Dispose on object {1} before all references to it are out of scope.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122">
+   <Name>Do not indirectly expose methods with link demands</Name>
+   <Description>Do not wrap a method protected by a LinkDemand with a method that does not perform a security check. A LinkDemand checks the permissions of the immediate caller rather than checking the permissions of all callers in the call stack. In this case, the permissions of the wrapper method will be checked. If the wrapper method does not, itself, check the permissions of callers higher in the call stack, malicious code might be able to execute the wrapped function even though it lacks permission to do so.</Description>
+   <Resolution Name="Default">{0} calls into {1} which has a LinkDemand. By making this call, {1} is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: {2}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182303(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="33">CriticalError</MessageLevel>
+   <File Name="securityrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100">
+   <Name>Review SQL queries for security vulnerabilities</Name>
+   <Description>A SQL command string built from user input is vulnerable to SQL injection attacks. Microsoft SQL Server and other database servers support stored procedures and parameterized SQL queries, which reduce the risk of injection attacks.</Description>
+   <Resolution Name="WithNonLiterals">The query string passed to {0} in {1} could contain the following variables {2}. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182310(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

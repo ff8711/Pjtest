@@ -1,0 +1,94 @@
+E:\Project\iPayment\VTIREPORT\DashBoard\obj\Debug\DashBoard.exe
+E:\Project\iPayment\VTIREPORT\DashBoard\obj\Debug\DashBoard.pdb
+E:\Project\iPayment\VTIREPORT\DashBoard\bin\Debug\DashBoard.exe
+E:\Project\iPayment\VTIREPORT\DashBoard\bin\Debug\DashBoard.pdb
+E:\Project\iPayment\VTIREPORT\DashBoard\bin\Debug\EPPlus.dll
+E:\Project\iPayment\VTIREPORT\DashBoard\bin\Debug\EPPlus.xml
+E:\Project\iPayment\VTIREPORT\DashBoard\obj\Debug\VTIREPORT.csprojResolveAssemblyReference.cache
+E:\Project\iPayment\VTIREPORT\DashBoard\obj\Debug\DashBoard.DashBoard.resources
+E:\Project\iPayment\VTIREPORT\DashBoard\obj\Debug\DashBoard.NXT.resources
+E:\Project\iPayment\VTIREPORT\DashBoard\obj\Debug\DashBoard.Properties.Resources.resources
+E:\Project\iPayment\VTIREPORT\DashBoard\obj\Debug\VTIREPORT.csproj.GenerateResource.Cache
+E:\PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.exe
+E:\PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.pdb
+E:\PROJECT\VTIREPORT-VS2010\DashBoard\bin\Debug\DashBoard.exe
+E:\PROJECT\VTIREPORT-VS2010\DashBoard\bin\Debug\DashBoard.pdb
+E:\PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\VTIREPORT.csprojResolveAssemblyReference.cache
+E:\PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.DashBoard.resources
+E:\PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.Properties.Resources.resources
+E:\PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\VTIREPORT.csproj.GenerateResource.Cache
+E:\PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frCNXX.resources
+E:\PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frNXT.resources
+E:\PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frCNXXView.resources
+E:\PROJECT\VTIREPORT-VS2010\DashBoard\bin\Debug\DashBoard.exe.config
+E:\PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.UserWHSetup.resources
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\bin\Debug\DashBoard.exe.config
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.exe
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.pdb
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\bin\Debug\DashBoard.exe
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\bin\Debug\DashBoard.pdb
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\VTIREPORT.csprojResolveAssemblyReference.cache
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.DashBoard.resources
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frCNXXView.resources
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frCNXX.resources
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frNXT.resources
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.Properties.Resources.resources
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.UserWHSetup.resources
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\VTIREPORT.csproj.GenerateResource.Cache
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frAbout.resources
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.ServerConfig.resources
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.CNXXHistory.resources
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\bin\Debug\DashBoard.exe.config
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.exe
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.pdb
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\bin\Debug\DashBoard.exe
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\bin\Debug\DashBoard.pdb
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\VTIREPORT.csprojResolveAssemblyReference.cache
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.CNXXHistory.resources
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frAbout.resources
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.DashBoard.resources
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frCNXXView.resources
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frCNXX.resources
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frNXT.resources
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.Properties.Resources.resources
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.ServerConfig.resources
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.UserWHSetup.resources
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\VTIREPORT.csproj.GenerateResource.Cache
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frStockCard.resources
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frStockCard.resources
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frUserMenuPermission.resources
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frRequest.resources
+E:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frNXTDimension.resources
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frUserMenuPermission.resources
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frNXTDimension.resources
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frRequest.resources
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.FrInventoryOnHand.resources
+D:\4. PROJECT\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.View.frInventory.resources
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\bin\Debug\DashBoard.exe.config
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.exe
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.pdb
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\bin\Debug\DashBoard.exe
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\bin\Debug\DashBoard.pdb
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\VTIREPORT.csprojResolveAssemblyReference.cache
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frUserMenuPermission.resources
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.View.frInventory.resources
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.FrInventoryOnHand.resources
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frNXTDimension.resources
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frStockCard.resources
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.CNXXHistory.resources
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frAbout.resources
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.DashBoard.resources
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frCNXXView.resources
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frCNXX.resources
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frNXT.resources
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.Properties.Resources.resources
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.ServerConfig.resources
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.frRequest.resources
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.UserWHSetup.resources
+C:\DATA\1.VTI\0.PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\VTIREPORT.csproj.GenerateResource.Cache
+C:\DATA\1.VTI\0. PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\bin\Debug\DashBoard.exe.config
+C:\DATA\1.VTI\0. PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.exe
+C:\DATA\1.VTI\0. PROJECT\VTIREPORT-VS2010\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.pdb
+C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\VTIREPORT-VS2010\DashBoard\bin\Debug\DashBoard.exe.config
+C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.exe
+C:\DATA\1.VTI\0. PROJECT\MASTERDATAMGM\VTIREPORT-VS2010\DashBoard\obj\Debug\DashBoard.pdb

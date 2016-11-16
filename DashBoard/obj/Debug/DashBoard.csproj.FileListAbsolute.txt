@@ -1,0 +1,8 @@
+E:\Project\iPayment\VTIREPORT\DashBoard\bin\Debug\DashBoard.exe
+E:\Project\iPayment\VTIREPORT\DashBoard\bin\Debug\DashBoard.pdb
+E:\Project\iPayment\VTIREPORT\DashBoard\obj\Debug\DashBoard.csprojResolveAssemblyReference.cache
+E:\Project\iPayment\VTIREPORT\DashBoard\obj\Debug\DashBoard.Form1.resources
+E:\Project\iPayment\VTIREPORT\DashBoard\obj\Debug\DashBoard.Properties.Resources.resources
+E:\Project\iPayment\VTIREPORT\DashBoard\obj\Debug\DashBoard.csproj.GenerateResource.Cache
+E:\Project\iPayment\VTIREPORT\DashBoard\obj\Debug\DashBoard.exe
+E:\Project\iPayment\VTIREPORT\DashBoard\obj\Debug\DashBoard.pdb
